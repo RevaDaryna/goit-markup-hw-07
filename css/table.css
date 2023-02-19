@@ -1,0 +1,228 @@
+@media screen and (min-width: 768px) {
+  .section-title {
+    font-size: 28px;
+    line-height: calc(33 / 28);
+  }
+
+  .head-section {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url('../images/bg/head-fone.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .head-section {
+      background-image: url('../images/bg/header-bg2x.jpg');
+    }
+  }
+
+  /* Header */
+
+  .container {
+    max-width: 768px;
+  }
+
+  .header {
+    padding: 21px 0;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+  }
+
+  .header-menu {
+    display: flex;
+    gap: 50px;
+  }
+
+  .header-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .logo {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+  }
+
+  .contacts-list {
+    display: flex;
+    gap: 10px;
+  }
+
+  .e-mail {
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+    fill: var(--color-secondary);
+    align-items: center;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .tel {
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.02em;
+    color: var(--color-secondary);
+    fill: var(--color-secondary);
+    align-items: center;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-link {
+    position: relative;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .current-link {
+    color: var(--color-bg-action);
+    padding-bottom: 34px;
+  }
+
+  .current-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: 3px solid;
+    background-color: var(--color-bg-action);
+    border-radius: 2px;
+  }
+
+  .header-link:hover,
+  .e-mail:hover,
+  .tel:hover,
+  .footer-tel:hover,
+  .footer-e-mail:hover,
+  .footer-address:hover {
+    color: var(--color-bg-action);
+    fill: var(--color-bg-action);
+    cursor: pointer;
+  }
+
+  .header-link:focus,
+  .e-mail:focus,
+  .tel:focus,
+  .header-icon:focus,
+  .footer-tel:focus,
+  .footer-e-mail:focus,
+  .footer-address:focus {
+    color: var(--color-bg-action);
+    fill: var(--color-bg-action);
+    cursor: pointer;
+  }
+
+  .mobile-menu-button {
+    display: none;
+  }
+
+  /* Advantages */
+
+  .section-advantages-text {
+    max-width: 354px;
+  }
+
+  .section-advantages-icon {
+    max-width: 354px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 32px) / 2);
+  }
+
+  .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  /* Team */
+
+  .section-team-card {
+    max-width: 354px;
+    width: calc((100% - 30px) / 2);
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Clients */
+
+  .clients-item {
+    width: calc((100% - 30px) / 3);
+  }
+
+  .clients-link {
+    padding: 16px 60px;
+  }
+
+  /* Footer */
+
+  .footer-address {
+    margin-top: 20px;
+  }
+
+  .footer-table {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 74px;
+    margin-left: 61px;
+  }
+
+  /* Footer sending */
+
+  .footer-field-input {
+    max-width: 450px;
+  }
+
+  /* Portfoloi */
+
+  .filter-list {
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 14px;
+    justify-content: center;
+  }
+
+  .section-portfolio-progect {
+    width: calc((100% - 30px) / 2);
+    height: auto;
+  }
+
+  .image {
+    width: 354px;
+  }
+
+  .card-owerlay {
+    padding: 49px 24px 77px;
+  }
+
+  .big-card {
+    margin-bottom: 36px;
+  }
+}
