@@ -1,6 +1,7 @@
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
+    margin: 0 auto;
   }
 
   .section {
@@ -95,12 +96,7 @@
   }
 
   /* Work */
-
-  .section-work {
-    display: inline-block;
-    padding-top: 0;
-  }
-
+  
   .work-list {
     display: flex;
     flex-direction: row;

@@ -260,23 +260,20 @@ li {
 /* Head */
 
 .head-section {
-  background-color: var(--dark-bg-color);
   padding: 118px 0px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/bg/header-bg-mob.jpg');
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
 }
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .head-section {
-    background-image: url('../images/bg/header-bg-mob2x.jpg');
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/bg/header-bg-mob2x.jpg');
   }
 }
-
-
 
 .head-button {
   font-family: 'Roboto', sans-serif;
