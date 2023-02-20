@@ -57,7 +57,12 @@
 
   /* Head */
 
-  .head-section {
+  /* .head-section {
+    padding: 200px 0px;
+  } */
+
+  .head {
+    max-width: 1600px;
     padding: 200px 0px;
   }
 
@@ -96,7 +101,7 @@
   }
 
   /* Work */
-  
+
   .work-list {
     display: flex;
     flex-direction: row;
@@ -132,7 +137,7 @@
   /* Team */
 
   .section-team-card {
-    width: calc((100% - 130px) / 4);
+    width: calc((100% - 90px) / 4);
   }
 
   .section-team-img {
@@ -176,16 +181,19 @@
   .footer-container {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
   }
 
   .footer-container-box {
     text-align: left;
     width: 231px;
+    margin-bottom: 0;
   }
 
   .footer-table {
     gap: 70px;
     margin: 0;
+    align-items: baseline;
   }
 
   /* Footer sending */
@@ -207,7 +215,6 @@
   }
 
   .sending {
-    margin-top: 23px;
     text-align: left;
   }
 
@@ -231,5 +238,9 @@
 
   .big-card {
     margin: 0;
+  }
+
+  .socials-footer {
+    margin-bottom: 0;
   }
 }

@@ -4,13 +4,13 @@
     line-height: calc(33 / 28);
   }
 
-  .head-section {
+  .head {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url('../images/bg/head-fone.jpg');
+      url('../images/bg/head-fone.jpg');  
   }
 
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .head-section {
+    .head {
       background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url('../images/bg/header-bg2x.jpg');
     }
@@ -139,7 +139,13 @@
     display: none;
   }
 
+
   /* Advantages */
+
+  .section-advantages-title {
+    text-align: left;
+  }
+
 
   .section-advantages-text {
     max-width: 354px;
