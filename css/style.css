@@ -369,6 +369,10 @@ li {
   display: none;
 }
 
+.work-list {
+  display: none;
+}
+
 /* Team */
 
 .section-team {
