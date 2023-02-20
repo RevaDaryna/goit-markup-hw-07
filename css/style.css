@@ -34,6 +34,7 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   margin-bottom: 0;
+
 }
 
 img {
@@ -91,6 +92,8 @@ li {
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid var(--line-color);
+  max-width: 480px;
+  margin: 0 auto;
 }
 
 .header-menu {
@@ -369,11 +372,6 @@ li {
   display: none;
 }
 
-.work-list {
-  display: none;
-}
-
-.
 
 /* Team */
 
