@@ -166,6 +166,10 @@
     flex-direction: row;
   }
 
+  .section-work {
+    display: none;
+  }
+
   /* Team */
 
   .section-team-card {
